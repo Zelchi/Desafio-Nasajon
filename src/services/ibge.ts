@@ -12,11 +12,7 @@ export type FetchMunicipiosResult = {
 export type MatchAnalysis =
     | { kind: "resolved"; municipio: MunicipioInfo }
     | { kind: "not_found" }
-    | {
-        kind: "ambiguous";
-        candidates: MunicipioInfo[];
-        source: "exact" | "fuzzy";
-    };
+    | { kind: "ambiguous"; candidates: MunicipioInfo[]; source: "exact" | "fuzzy" };
 
 export type MatchContext = {
     regionCounts: Map<string, number>;

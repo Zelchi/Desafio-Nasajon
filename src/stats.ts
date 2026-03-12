@@ -1,10 +1,6 @@
+import { analyzeMunicipioMatch, resolveAmbiguousMatch, type MatchContext } from "./services/ibge";
 import type { ResultadoLinha, Stats } from "./types";
 import type { FetchMunicipiosResult } from "./services/ibge";
-import {
-    analyzeMunicipioMatch,
-    resolveAmbiguousMatch,
-    type MatchContext,
-} from "./services/ibge";
 
 // Converte a população do CSV para número.
 // Mantém tolerância para espaços e caracteres extras.
