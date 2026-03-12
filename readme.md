@@ -5,8 +5,9 @@ Aplicação em TypeScript que lê um `input.csv`, enriquece os municípios com d
 ## Como rodar
 
 1. Configure no `.env` as variáveis `BACKEND_URL` e `ACCESS_TOKEN`.
-2. Execute `yarn dev` para processar o arquivo e enviar as estatísticas.
-3. Execute `yarn build` para gerar o bundle em `dist/`.
+2. Execute `yarn dev` para rodar em modo de desenvolvimento.
+3. Execute `yarn build` para buildar e otimizar em `dist/`.
+4. Execute `yarn start` para rodar o arquivo buildado.
 
 ## Ciclo de vida do sistema
 
